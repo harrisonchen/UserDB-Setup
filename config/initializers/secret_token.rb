@@ -24,4 +24,4 @@ def secure_token
   end
 end
 
-WhatTodo::Application.config.secret_key_base = secure_token
+UserDBSetup::Application.config.secret_key_base = secure_token
